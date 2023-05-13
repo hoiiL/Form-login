@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: black;
+  font-family: 'Courier New', Courier, monospace
+}
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #927fdb, #d1a7c9);
+}
+h2 {
+  color: #fff;
+  font-size: 30px;
+  position: relative;
+  bottom: 20px;
+}
+form {
+  overflow: hidden;
+  height: 400px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 1px rgba(0,0,0,.1), -5px -5px 5px 1px rgba(255, 255, 255, 0.1);
+}
+.signup, .login {
+  height: inherit;
+  width: inherit;
+  border-radius: 10px;
+  background: linear-gradient(to bottom, #927fdb, #F5C6EC);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header {
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header span {
+  font-size: 30px;
+  color: #fff;
+  font-weight: 700;
+  user-select: none;
+  cursor: pointer;
+}
+.form-group {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  margin: 6px 0;
+}
+.form-group input {
+  height: 30px;
+  width: 240px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  background-color: transparent;
+  box-shadow: inset 2px 2px 2px rgba(0,0,0,.4), inset -2px -2px 2px rgba(256,256,256,.4);
+  padding-left: 30px;
+  color: black
+}
+.form-group ion-icon {
+  position: absolute;
+  left: .6rem;
+  color: #3d394f
+}
+.form-group5 {
+  background-color: #7254eb;
+  color: #fff;
+  font-weight: 700;
+  width: 150px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px rgba(0,0,0,.6), -3px -3px 3px rgba(256,256,256,.4);
+  user-select: none;
+  cursor: pointer;
+  transition: all .1s ease;
+}
+.remove {
+  box-shadow: none;
+  transform: scale(.95);
+}
+
+.login {
+  position: relative;
+  top: -330px;
+  /* top: -46px; */
+  transition: all 1s ease;
+}
+.login span {
+  position: relative;
+  top: -10px;
+}
+.remember {
+  height: 20px;
+  width: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.remember input {
+  position: absolute;
+  height: 14px;
+  width: 14px;
+  left: 2px;
+}
+.remember span {
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 14px;
+}
+.remember a {
+  position: absolute;
+  text-decoration: none;
+  right: 0;
+  font-size: 14px;
+}
+.remember a:hover {
+  text-decoration: underline;
+}
